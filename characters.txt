@@ -1,41 +1,41 @@
-00 amber
-01 barbara
-02 beidou
-03 bennett
-04 chongyun
-05 diluc
-06 fischl
-07 jean
-08 kaeya
-09 keqing
-10 klee
-11 lisa
-12 mona
-13 ningguang
-14 noelle
-15 qiqi
-16 razor
-17 sucrose
-18 traveler
-19 venti
-20 xiangling
-21 xingqiu
-22 diona
-23 tartaglia
-24 xinyan
-25 zhongli
-26 albedo
-27 ganyu
-28 hu tao
-29 xiao
-30 rosaria
-31 eula
-32 yanfei
-33 kazuha
-34 ayaka
-35 sayu
-36 yoimiya
-37 aloy
-38 sara
-39 raiden
-40 kokomi
+amber
+barbara
+beidou
+bennett
+chongyun
+diluc
+fischl
+jean
+kaeya
+keqing
+klee
+lisa
+mona
+ningguang
+noelle
+qiqi
+razor
+sucrose
+traveler
+venti
+xiangling
+xingqiu
+diona
+tartaglia
+xinyan
+zhongli
+albedo
+ganyu
+hu tao
+xiao
+rosaria
+eula
+yanfei
+kazuha
+ayaka
+sayu
+yoimiya
+aloy
+sara
+raiden
+kokomi
