@@ -49,13 +49,13 @@ void writeCSV(const vector<array<int, 4>> teams, string& filename) {
     cout << filename << " written successfully.\n";  //debugging
 }
 
-int main() {
-    cout << "Generating teams..\n";
-    //gets the team combos
-    vector<array<int, 4>> allTeams = generateTeamCombinations();
-
-    cout << "number of team combos made: " << allTeams.size() << "\n";  //debugging
-    writeCSV(allTeams, output_file);
-
-    return 0;
-}
+//int main() {
+//    cout << "Generating teams..\n";
+//    //gets the team combos
+//    vector<array<int, 4>> allTeams = generateTeamCombinations();
+//
+//    cout << "number of team combos made: " << allTeams.size() << "\n";  //debugging
+//    writeCSV(allTeams, output_file);
+//
+//    return 0;
+//}

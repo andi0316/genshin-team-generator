@@ -55,6 +55,12 @@ build CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj: CXX_COMPILER__dsa_proj_3_
   OBJECT_DIR = CMakeFiles\dsa_proj_3.dir
   OBJECT_FILE_DIR = CMakeFiles\dsa_proj_3.dir
 
+build CMakeFiles/dsa_proj_3.dir/main.cpp.obj: CXX_COMPILER__dsa_proj_3_unscanned_Debug C$:/Users/andri/CLionProjects/dsa_proj_3/main.cpp || cmake_object_order_depends_target_dsa_proj_3
+  DEP_FILE = CMakeFiles\dsa_proj_3.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dsa_proj_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\dsa_proj_3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target dsa_proj_3
@@ -63,7 +69,7 @@ build CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj: CXX_COMPILER__dsa_proj_3_
 #############################################
 # Link the executable dsa_proj_3.exe
 
-build dsa_proj_3.exe: CXX_EXECUTABLE_LINKER__dsa_proj_3_Debug CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj
+build dsa_proj_3.exe: CXX_EXECUTABLE_LINKER__dsa_proj_3_Debug CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj CMakeFiles/dsa_proj_3.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\dsa_proj_3.dir

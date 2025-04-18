@@ -1,6 +1,15 @@
 # ninja log v5
 1	813	7665574326168999	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
-817	1142	7665574329391944	dsa_proj_3.exe	10e3bc132ff9264c
-56	532	7665594400946346	build.ninja	c63d9549be268496
-0	819	7665594411993856	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj	6f86bcc28ce55a98
+56	532	7667034095151487	build.ninja	c63d9549be268496
 821	1071	7665594414438025	dsa_proj_3.exe	29b0a94060ba352c
+0	819	7665594411993856	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj	6f86bcc28ce55a98
+75	2895	7667039454705358	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
+11	2904	7667039454778898	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj	6f86bcc28ce55a98
+3	656	7667040039531450	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj	6f86bcc28ce55a98
+658	874	7667040041647656	dsa_proj_3.exe	e52c7bff64ccfbf7
+31	1589	7667076521640128	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
+1591	1912	7667076524837148	dsa_proj_3.exe	e52c7bff64ccfbf7
+6	2576	7667180412663078	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
+2577	3247	7667180419333502	dsa_proj_3.exe	e52c7bff64ccfbf7
+6	1054	7667183036671732	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
+1055	1378	7667183039847779	dsa_proj_3.exe	e52c7bff64ccfbf7

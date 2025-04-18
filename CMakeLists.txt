@@ -3,4 +3,7 @@ project(dsa_proj_3)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(dsa_proj_3 generate_data.cpp)
+add_executable(dsa_proj_3 generate_data.cpp
+        main.cpp
+        main.cpp
+        helpers.h)
