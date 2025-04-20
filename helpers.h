@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <map>
+#include <queue>
 #include <vector>
 #include <sstream>
 
@@ -53,4 +54,15 @@ map <vector<int>, int> mappingTeams(){
     file.close();
 
     return teamMap;
+}
+vector<pair<vector<int>, int>> maxheapmake (vector<pair<vector<int>, int>>& a) {
+    priority_queue <pair<vector<int>, int>> pq;
+    for (int i=0; i <= a.size(); i++)
+        pq.push(a[i]);
+    vector<pair<vector<int>, int>> ret;
+    while(pq.empty() == false) {
+        ret.push_back(pq.top());
+        pq.pop();
+    }
+    return ret;
 }
