@@ -65,21 +65,23 @@ int main() {
 
     if (input.size()<4)
     {
-        cout<<"Not enough characters"<<endl;
+        cout<<"Please enter at least 4 characters"<<endl;
         return 0;
     }
 
     vector<pair<vector<int>, int>> usableTeams = filter(input, teamCombos);
     sortedTeams = mergesort(usableTeams);
 
-    for (int i = 0; i < min(10, (int)sortedTeams.size()); ++i) {
+    cout<<"Fastest Teams:"<<endl;
+    for (int i = 0; i < min(5, (int)sortedTeams.size()); ++i) {
         auto [team, time] = sortedTeams[i]; //easy access of key/team & value/time
-        cout << "team: ";
+        cout << "Team: ";
         for (int member : team){
-            cout << member << " ";
+            cout << characterMap[member] << " ";
         }
-        cout << "--> clear time: " << time << "s" << endl;
+        cout << "--> Clear time: " << time << "s" << endl;
     }
+
 
     return 0;
 
