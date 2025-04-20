@@ -1,0 +1,3 @@
+/Users/paulswenson/CLionProjects/genshin/.idea/cmake-build-debug/CMakeFiles/_idea.dir
+/Users/paulswenson/CLionProjects/genshin/.idea/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/paulswenson/CLionProjects/genshin/.idea/cmake-build-debug/CMakeFiles/rebuild_cache.dir

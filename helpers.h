@@ -60,7 +60,7 @@ vector<pair<vector<int>, int>> maxheapmake (vector<pair<vector<int>, int>>& a) {
     for (int i=0; i <= a.size(); i++)
         pq.push(a[i]);
     vector<pair<vector<int>, int>> ret;
-    while(pq.empty() == false) {
+    while(!pq.empty()) {
         ret.push_back(pq.top());
         pq.pop();
     }
