@@ -6,4 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(dsa_proj_3 generate_data.cpp
         main.cpp
         main.cpp
-        helpers.h)
+        helpers.h
+        algorithms.h
+        algorithms.h)
