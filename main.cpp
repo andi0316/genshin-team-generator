@@ -39,17 +39,47 @@ int main() {
 
     set<int> sample = {1,2,3,20,6,4};  //simulates a sample input
 
-    vector<pair<vector<int>, int>> usableTeams = filter(sample, teamCombos);
+    set<int> input = {}; //set of owned characters
+    cout<<"Welcome to the Genshin Impact team generator"<<endl;
+    cout<<"Please input all the characters you have (lowercase, first name only)."<<endl;
+    cout<<"Type \"End\" when finished."<<endl;
+    string str;
+    while (str!="End")
+    {
+        getline(cin, str);
+        // cout<<"input: "<<str<<endl;
+        auto i = characterMap.begin();
+        while (str!="End"){
+            if (i == characterMap.end() || str.empty())
+            {
+                cout<<"Character not found."<<endl;
+                break;
+            }
+            if (i->second == str){
+                input.insert(i->first);
+                break;
+            }
+            i++;
+        }
+    }
+
+    if (input.size()<4)
+    {
+        cout<<"Not enough characters"<<endl;
+        return 0;
+    }
+
+    vector<pair<vector<int>, int>> usableTeams = filter(input, teamCombos);
     sortedTeams = mergesort(usableTeams);
-//
-//    for (int i = 0; i < min(10, (int)sortedTeams.size()); ++i) {
-//        auto [team, time] = sortedTeams[i]; //easy access of key/team & value/time
-//        cout << "team: ";
-//        for (int member : team){
-//            cout << member << " ";
-//        }
-//        cout << "--> clear time: " << time << "s" << endl;
-//    }
+
+    for (int i = 0; i < min(10, (int)sortedTeams.size()); ++i) {
+        auto [team, time] = sortedTeams[i]; //easy access of key/team & value/time
+        cout << "team: ";
+        for (int member : team){
+            cout << member << " ";
+        }
+        cout << "--> clear time: " << time << "s" << endl;
+    }
 
     return 0;
 
