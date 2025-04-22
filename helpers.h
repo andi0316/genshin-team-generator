@@ -2,10 +2,21 @@
 #include <fstream>
 #include <string>
 #include <map>
+#include <queue>
 #include <vector>
 #include <sstream>
 
 using namespace std;
+
+struct customComparator {   //credits to geeksforgeeks, https://www.geeksforgeeks.org/priority-queue-of-pairs-in-c-with-ordering-by-first-and-second-element/
+    bool operator()(
+            pair<vector<int>, int> const& a,
+            pair<vector<int>, int> const& b)
+    const
+    {
+        return a.second < b.second;
+    }
+};
 
 map<int, string> parse() {
     ifstream file("characters.txt");
@@ -54,3 +65,26 @@ map <vector<int>, int> mappingTeams(){
 
     return teamMap;
 }
+
+vector<pair<vector<int>, int>> maxheapmake (vector<pair<vector<int>, int>>& a) {
+    priority_queue <pair<vector<int>, int>, vector<pair<vector<int>, int>>, customComparator> pq;
+    for (int i=0; i <= a.size(); i++)
+        pq.push(a[i]);
+    vector<pair<vector<int>, int>> ret;
+    while(!pq.empty()) {
+        ret.push_back(pq.top());
+        pq.pop();
+    }
+    return ret;
+}
+//vector<pair<vector<int>, int>> maxheapmake (vector<pair<vector<int>, int>>& a) {
+//    priority_queue <pair<vector<int>, int>> pq;
+//    for (int i=0; i < a.size(); i++)
+//        pq.push(a[i]);
+//    vector<pair<vector<int>, int>> ret;
+//    while(!pq.empty()) {
+//        ret.push_back(pq.top());
+//        pq.pop();
+//    }
+//    return ret;
+//}
