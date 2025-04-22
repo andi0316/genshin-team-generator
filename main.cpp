@@ -94,7 +94,7 @@
         auto heapSpeed = duration_cast<microseconds>(heapEnd - heapStart);
 
         //print statements
-        cout << "\nNumber of Usable Teams: " << usableTeams.size() << ".\n";
+        cout << "\nNumber of Usable Teams: " << usableTeams.size() << "\n";
 
         cout << "\nBest Times: " << endl;
         for (int i = 0; i < min(3, (int)sortedTeams.size()); ++i) {
