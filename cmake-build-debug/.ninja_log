@@ -1,5 +1,6 @@
-# ninja log v5
-15	1777	7670521990890765	CMakeFiles/dsa_proj_3.dir/main.cpp.obj	bb622ea7f746fbc9
-4	1376	7670602909412050	build.ninja	c63d9549be268496
-1778	2184	7670521994895618	dsa_proj_3.exe	e52c7bff64ccfbf7
-6	1165	7668844007802381	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.obj	6f86bcc28ce55a98
+# ninja log v6
+1	402	1745374610664970118	CMakeFiles/dsa_proj_3.dir/generate_data.cpp.o	2bcf4c9f7d17cd05
+1	534	1745374610665178118	CMakeFiles/dsa_proj_3.dir/main.cpp.o	b7bf43fa525be3a8
+534	564	1745374611198512958	dsa_proj_3	af2a70618dd77f1
+8	610	1745378198119346811	CMakeFiles/dsa_proj_3.dir/main.cpp.o	b7bf43fa525be3a8
+610	655	1745378198721215300	dsa_proj_3	af2a70618dd77f1

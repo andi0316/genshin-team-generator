@@ -78,7 +78,7 @@
                 }
                 cout << "\n" << "Clear time: " << clear_time << " seconds" << endl;
             }
-    //        return 0;
+            return 0;
         }
 
         //sorts the team using merge sort for min times + also tracks the time taken to do so
